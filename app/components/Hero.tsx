@@ -27,6 +27,7 @@ export default function Hero() {
         muted
         loop
         playsInline
+        suppressHydrationWarning
         className="absolute inset-0 h-full w-full scale-110 object-cover object-[72%_center]"
         src="/videos/burger-hero.mp4"
       />

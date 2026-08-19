@@ -76,6 +76,7 @@ export default function Smashed() {
               muted
               playsInline
               preload="auto"
+              suppressHydrationWarning
               className="h-full w-full object-contain [filter:drop-shadow(0_30px_40px_rgba(0,0,0,0.6))]"
             >
               {/* Safari plays HEVC-with-alpha; Chrome/Firefox take the VP9 WebM */}
